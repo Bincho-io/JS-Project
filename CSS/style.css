@@ -1,0 +1,33 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+ol, ul {
+list-style: none;
+}
+
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+img, fieldset {
+border: 0;
+}
+
+/* Custom Style */
+body {
+  font-size: 14px;
+}
+
+#open, #close {
+  cursor: pointer;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  text-align: center;
+  padding: 12px 0;
+  margin: 16px auto 0;
+}
