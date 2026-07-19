@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="css/dom-form.css">
+  <script src="js/dom-form.js" defer></script>
+  <title>DOM Form</title>
+</head>
+
+<body>
+  <h1>DOM Form</h1>
+  <h2><a href="index.html">Home</a></h2>
+  <label class="form-item">Name: <input type="text" id="fullName"></label>
+  <label class="form-item">Comment:<br> <textarea id="txtArea" title="text area"></textarea></label>
+
+  <label class="form-item">Fruit:
+    <select for="fruit" id="select">
+      <option name="fruit" value=""></option>
+      <option name="fruit" value="apple">Apple</option>
+      <option name="fruit" value="orange">Orange</option>
+      <option name="fruit" value="banana">Banana</option>
+    </select>
+  </label>
+
+  <label for="gender" class="form-item">Gender:
+    <label><input type="radio" name="gender" value="male">男性</label>
+    <label><input type="radio" name="gender" value="female">女性</label>
+  </label>
+
+  <label class="form-item">Hobby:
+    <label><input type="checkbox" name="hobby" value="movie">Movie</label>
+    <label><input type="checkbox" name="hobby" value="sport">Sport</label>
+    <label><input type="checkbox" name="hobby" value="reading">Reading</label>
+  </label>
+
+  <label class="form-item">Date: <input type="date" id="date"></label>
+  <label class="form-item">Range: <input type="range" id="range"></label>
+  <label class="form-item">Color: <input type="color" id="color"></label>
+
+  <button type="button" id="btn" class="form-item">OK</button>
+
+  <div id="result">
+    <h2>Result</h2>
+  </div>
+
+</body>
+
+</html>

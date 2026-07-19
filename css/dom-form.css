@@ -1,0 +1,24 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+img, fieldset {
+border: 0;
+}
+
+/* DOM Form style */
+body {
+  margin: 20px;
+}
+
+.form-item {
+  display: block;
+  margin: 1rem;
+}
